@@ -1,0 +1,79 @@
+body{
+    margin: 10px;
+}
+
+.container-title, .add-todo, .todo-list, .table-container, .table-container{
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto 10px;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.text-paragraph{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.add-todo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-todo{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-weight: 14px;
+}
+
+.button-add{
+    border: 1px solid black;
+    color: black;
+    background: #fff;
+    cursor: pointer;
+}
+
+.todo-list{
+    min-height: 100vh;
+}
+
+.header-container{
+    border-bottom: 1px solid black;
+}
+
+.header-container th, .task-container td{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header-container tr{
+    font-weight: bold;
+}
+
+.task-container tr{
+    text-align: center;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.button-status, .edit-button, .remove-button{
+    background: #fff;
+    cursor: pointer;
+}
+
+.newTaskInput{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+
+

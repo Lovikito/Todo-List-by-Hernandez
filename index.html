@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d7d4a8e0cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-title">
+        <h1 class="title">TODO List - Luis Hernandez</h1>
+        <p class="text-paragraph">Do it now</p>
+    </header>
+
+    <main>
+        <section class="add-todo">
+            <input id="taskInput" class="input-todo" type="text" placeholder="Add tasks" maxlength="78">
+            <button id="addButton" class="button-add">Add Task</button>
+        </section>
+        <section class="todo-list">
+            <table class="table-container">
+                <thead class="header-container">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Task Name</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Remove</th>
+                    </tr>
+                </thead>
+                <tbody class="task-container">
+                </tbody>
+            </table>
+        </section>
+    </main>
+<script src="app.js"></script>
+</body>
+</html>
